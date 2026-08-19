@@ -22,7 +22,7 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
     }
 
     // Chamar e imprimir o que retorna na função media()
-    if (isset($n1) && isset($n2) && isset($n3)) {
+    if (isset($n1) || isset($n2) || isset($n3)) {
         media($n1, $n2, $n3);
     }
 } else {
