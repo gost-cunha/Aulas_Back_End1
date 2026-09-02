@@ -50,6 +50,10 @@ function areaCirculo($raio) {
     return 3.14 * ($raio ^ 2);
 }
 
+function converterTemp($c) {
+    return ($c * 9/5) + 32;
+}
+
 function tabuada($num) {
     $tabuada = [];
 
