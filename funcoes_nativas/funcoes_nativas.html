@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulários</title>
+</head>
+
+<body>
+    <main>
+        <section>
+            <h1>Potência</h1>
+            <form action="potencia.php" method="POST">
+                <label for="num">Número:</label>
+                <input type="number" name="num" required>
+
+                <label for="potencia">Potência:</label>
+                <input type="number" name="potencia" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h1>Raiz Quadrada</h1>
+            <form action="raiz_quadrada.php" method="POST">
+                <label for="num">Número:</label>
+                <input type="number" name="num" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h1>Valor Absoluto</h1>
+            <form action="valor_absoluto.php" method="POST">
+                <label for="num">Número:</label>
+                <input type="number" name="num" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h1>Maior Menor</h1>
+            <form action="maior_menos.php" method="POST">
+                <label for="num1">1° Número:</label>
+                <input type="number" name="num1" required>
+                
+                <label for="num2">2° Número:</label>
+                <input type="number" name="num2" required>
+                
+                <label for="num3">3° Número:</label>
+                <input type="number" name="num3" required>
+                
+                <label for="num4">4° Número:</label>
+                <input type="number" name="num4" required>
+                
+                <label for="num5">5° Número:</label>
+                <input type="number" name="num5" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h1>Valor Arredondado</h1>
+            <form action="arredondamento.php" method="POST">
+                <label for="num">Número:</label>
+                <input type="number" name="num" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+
+        <section>
+            <h1>Número Aleatório</h1>
+            <form action="numero_aleatorio.php" method="POST">
+                <label for="numMin">Número Mínimo:</label>
+                <input type="number" name="numMin" required>
+                
+                <label for="numMax">Número Máximo:</label>
+                <input type="number" name="numMax" required>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+</body>
+
+</html>
